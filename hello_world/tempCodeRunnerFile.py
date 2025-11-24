@@ -1,0 +1,3 @@
+tVtTrhglzMttBtkOwVB4aJhgeuAMfz0",
+    base_url="https://generativelanguage.googleapis.com/v1beta/"
+)
