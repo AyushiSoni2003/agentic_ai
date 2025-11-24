@@ -1,8 +1,11 @@
 from google import genai
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # The client gets the API key from the environment variable `GEMINI_API_KEY`.
 client = genai.Client(
-    api_key = "AIzaSyCFtVtTrhglzMttBtkOwVB4aJhgeuAMfz0"
+    api_key = os.loadenv("GEMINI_API_KEY")
 )
 
 response = client.models.generate_content(
